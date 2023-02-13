@@ -52,15 +52,46 @@ li{
 }
 
 /*spazio tra paragrafi*/
-.lista, .seconda-sezione p, .table{
+.lista, .seconda-sezione p, .table, .table p, .final-section{
     margin-top: 20px;
 }
 
-/*tabella*/
-td, th{
-    padding: 0px 100px 0px 0px;  
-}
-
+/*reset tabella*/
 table{
     border-spacing: 0;
+}
+
+/*tabella*/
+td{
+    text-align: left; 
+}
+
+th{
+    text-align: left;
+    padding-right: px;
+}
+.space{
+    padding: 10px 50px 10px 0px;
+}
+
+/*immagini finilae*/
+.monitor{
+    background-image: url(../img/monitor.jpg);
+    width: 312px;
+    height: 208px;
+    background-size: cover;
+}
+
+.graph{
+    background-image: url(../img/graph.jpg);
+    width: 311px;
+    height: 207px;
+}
+
+.imgs{
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    font: bold;
+    padding: 10px;
 }
